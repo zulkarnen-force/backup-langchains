@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.channel-icons small{
+  font-size: 10px;
+  line-height: 9px;
+}
+
+.channel-node-addflow{
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+}
+
+.channel-node-addflow .icon-wrapper{
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.channel-node-addflow .icon-wrapper .icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.components p{
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 12px;
+}
+
+.card-button{
+  cursor: pointer;
+}
+.card-button .active{
+  border: 2px solid black;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  font-size: 12px;
+}
+
+.chat-message-left,
+.chat-message-right {
+  display: flex;
+  flex-shrink: 0
+}
+
+.chat-message-left {
+  margin-right: auto
+}
+
+.chat-message-right {
+  flex-direction: row-reverse;
+  margin-left: auto
+}
+
+.py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+.px-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+  flex-grow: 0!important;
+}
+.border-top {
+  border-top: 1px solid #dee2e6!important;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.dropzone.active {
+  border-color: #00c853;
+  color: #00c853;
+}

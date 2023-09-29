@@ -1,0 +1,9 @@
+{
+	"id": "tAc1T93ZdekR7gM",
+	"json": "{\"id\":\"tAc1T93ZdekR7gM\",\"url\":\"https://lettolink.com/\",\"loadedUrl\":\"https://lettolink.com/\",\"uniqueKey\":\"https://lettolink.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-04-13T22:15:16.701Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lettolink.com",
+	"url": "https://lettolink.com/"
+}
